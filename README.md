@@ -45,24 +45,30 @@ The carry output of each Full Adder is connected to the carry input of the next 
 ### Completed
 
 - [x] Full Adder RTL design
-- [x] Full Adder testbench
-- [x] Full Adder functional simulation
+- [x] Full Adder testbench and functional simulation
 - [x] 4-bit Ripple Carry Adder structural RTL design
-- [x] 4-bit RCA testbench
+- [x] RCA testbench development
 - [x] Functional verification with six test cases
 - [x] Carry propagation debugging and verification
 - [x] GTKWave waveform inspection
+- [x] Yosys synthesis and SKY130HD technology mapping
+- [x] Floorplanning and power distribution network setup
+- [x] Standard-cell placement
+- [x] Clock-tree synthesis (CTS) flow execution
+- [x] Global routing
+- [x] Detailed routing with zero routing violations
+- [x] Parasitic extraction
+- [x] Final timing and physical reports generated
+- [x] Final GDSII layout generation
+- [x] KLayout layout inspection
+- [x] LVS verification — netlists match
+- [x] VDD and VSS power connectivity checks
 
-### Upcoming
+### Verification Review
 
-- [ ] Yosys installation and synthesis
-- [ ] Synthesized netlist inspection
-- [ ] OpenROAD flow setup
-- [ ] SKY130 PDK integration
-- [ ] Physical design implementation
-- [ ] Timing and area analysis
-- [ ] GDSII generation
-
+- [x] Detailed routing report generated
+- [x] LVS comparison passed
+- [ ] Review final DRC report and confirm rule-check results
 ## 4-Bit RCA Simulation
 
 The following waveform shows the functional simulation of the 4-bit Ripple Carry Adder using Icarus Verilog and GTKWave.
