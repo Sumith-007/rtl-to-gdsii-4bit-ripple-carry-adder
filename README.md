@@ -82,10 +82,25 @@ This project aims to develop practical understanding of:
 
 ## Project Status
 
-**Current Stage:** RTL Design and Functional Verification Completed.
+**Current Stage: RTL-to-GDSII Implementation Completed**
 
-**Next Stage:** Logic Synthesis using Yosys.
+### Completed
+- RTL design and functional verification
+- Yosys synthesis and SKY130HD technology mapping
+- Floorplanning and power distribution network setup
+- Placement and clock-tree synthesis (CTS)
+- Global routing and detailed routing
+- Parasitic extraction and final timing reports
+- Final GDSII layout generation
+- KLayout layout inspection
+- LVS verification — netlists match
 
----
+### Physical Verification Notes
+- Detailed routing completed with 0 routing violations.
+- LVS verification passed.
+- DRC report generated; final rule-check results are subject to report review.
+- Power connectivity checks completed for VDD and VSS.
 
-*This is an ongoing learning project. Physical design and GDSII generation have not yet been completed.*
+**Note:** This is an educational RTL-to-GDSII implementation using the OpenROAD flow and SKY130HD platform. Results are not presented as foundry signoff.
+
+
